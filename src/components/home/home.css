@@ -1,0 +1,32 @@
+html{
+	scroll-behavior: smooth;
+}
+.home{
+
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: auto;
+}
+
+
+/*This is called 'Media Query' and used to make our app responsive*/
+
+/*For screens smaller than laptop ie., Tablets*/
+@media only screen and (max-width: 1024px){
+
+	.home{
+		width: 90%;
+	}
+
+}
+
+
+/*For screens smaller than tablet ie., smartphones*/
+@media only screen and (max-width: 512px){
+
+	.home{
+		width:100%;
+	}
+	
+}
